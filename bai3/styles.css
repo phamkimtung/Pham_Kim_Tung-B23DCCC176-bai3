@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #060101e8; 
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    position: relative; /* Đặt vị trí tương đối cho container */
+    background-image: url('back.png'); /* Đường dẫn đến hình ảnh làm nền */
+    background-size: cover; /* Đảm bảo hình ảnh sẽ phủ toàn bộ kích thước của phần tử */
+    background-position: center; /* Căn giữa hình ảnh */
+    background-repeat: no-repeat; /* Không lặp lại hình ảnh */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.avatar {
+    width: 150px;
+    height: 200px;
+    position: absolute; /* Đặt vị trí tuyệt đối cho ảnh */
+    top: 0px;
+    left: 690px;
+}
+
+.personal-info, .education, .experience, .skills, .links {
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-top: 20px;
+    color: #bbc8d6;
+    border-bottom: 2px solid #acab9a;
+}
